@@ -1,5 +1,7 @@
 # reactWithTypeScriptAndLess
 
+This simple repo gives you a setup if you are looking for a React application using Typescript and Less css preprocessor.
+
 check out this repro and execute below commands
 npm install
 npm start
