@@ -1,10 +1,12 @@
-# reactWithTypeScriptAndLess
+# React sample app with TypeScript, Less and Webpack
 
-This simple repo gives you a setup if you are looking for a React application using Typescript and Less css preprocessor.
+This is a sample React application using Typescript, Less and Webpack.
 
-check out this repro and execute below commands
+# To install and run locally
+Check out this repo and execute below commands.
 
 1. npm install
-2. npm start
+2. npm run build
+3. npm start
 
 'npm install' installs all the dependencies from package.json and 'npm start' opens a web browser and prints 'Hello from TypeScript and React!'
