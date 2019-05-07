@@ -1,3 +1,10 @@
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const htmlWebpackPlugin = new HtmlWebpackPlugin({
+    filename: 'index.html',
+    template: './index.html',
+});
+
 module.exports = {
     entry: "./src/index.tsx",
     output: {
@@ -38,6 +45,7 @@ module.exports = {
             { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
         ]
     },
+    plugins: [ htmlWebpackPlugin ],
     externals: {
         "react": "React",
         "react-dom": "ReactDOM"
