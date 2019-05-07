@@ -45,9 +45,5 @@ module.exports = {
             { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
         ]
     },
-    plugins: [ htmlWebpackPlugin ],
-    externals: {
-        "react": "React",
-        "react-dom": "ReactDOM"
-    }
+    plugins: [ htmlWebpackPlugin ]
 };
